@@ -1,8 +1,6 @@
-const libraryTargets = [
-  'var', 'assign', 'this', 'window', 'global', 'commonjs', 'commonjs2', 'amd', 'umd', 'jsonp'
-];
+const libraryTarget = 'commonjs';
 
-module.exports = libraryTargets.map(libraryTarget => ({
+module.exports = {
   mode: 'development',
   entry: './entry.js',
   output: {
@@ -10,4 +8,4 @@ module.exports = libraryTargets.map(libraryTarget => ({
     filename: `dist/bundle-${libraryTarget}.js`,
     libraryTarget: libraryTarget
   }
-}))
+}

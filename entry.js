@@ -1,5 +1,5 @@
 export function hello(name) {
-  return `Hello, ${name}!`;
+  return console.log(`Hello, ${name}!`);
 }
 
-document.getElementById('main').innerText = hello('webpack');
+hello('webpack');

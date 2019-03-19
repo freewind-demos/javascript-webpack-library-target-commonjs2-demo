@@ -1,7 +1,5 @@
-Webpack Config "libraryTarget" Demo
+Webpack Config "libraryTarget" "commonjs" Demo
 ======================================
-
-尝试输出各种格式的bundle文件.
 
 ```
 npm install
