@@ -1,4 +1,4 @@
-const libraryTarget = 'commonjs';
+const libraryTarget = 'commonjs2';
 
 module.exports = {
   mode: 'development',
